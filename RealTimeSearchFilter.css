@@ -1,12 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
-/* Page background */
 body {
   background-color: #0b0b0b;
   min-height: 100vh;
@@ -14,8 +11,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-/* Cards container */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +18,6 @@ body {
   justify-content: center;
 }
 
-/* Individual card */
 .card {
   width: 220px;
   background: #141414;
@@ -33,39 +27,29 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Hover effect */
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
-
-/* Content wrapper */
 .content {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-
-/* User name */
 .content h3 {
   font-size: 16px;
   color: #ffffff;
   font-weight: 600;
 }
-
-/* Hobby text */
 .content p {
   font-size: 14px;
   color: #aaaaaa;
   line-height: 1.4;
 }
-
-/* Search input enhancement */
 .inp {
   width: 300px;
   border: 1px solid #222;
 }
-
 .inp::placeholder {
   color: #666;
 }
@@ -75,4 +59,5 @@ body {
   object-fit: cover;
   border-radius: 8px;
 }
+
 
